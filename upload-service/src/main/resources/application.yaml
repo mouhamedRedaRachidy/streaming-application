@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: upload-service
+
+  datasource:
+    url: jdbc:h2:mem:upload-db
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+server:
+  port: 8086
+
+aws:
+  region: us-west-1
+  s3:
+    bucket-name: videos-bucket
