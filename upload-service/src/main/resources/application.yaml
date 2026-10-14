@@ -22,4 +22,4 @@ server:
 aws:
   region: us-west-1
   s3:
-    bucket-name: videos-bucket
+    bucket-name: streaming-dev-videos-r7k4m2
